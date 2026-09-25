@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: foreign-colors
+    runtime: static
+    buildCommand: test -f dist/index.html
+    staticPublishPath: ./dist
+    envVars:
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
