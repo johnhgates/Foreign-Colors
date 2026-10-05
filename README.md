@@ -9,6 +9,6 @@ Render Static Site, branch `main`, build command `test -f dist/index.html`, publ
 Node >=22.13.0. Install dependencies, edit `app/page.tsx`, `app/data.ts` or `app/globals.css`, then run `npm run build`. Commit both source and the regenerated `dist` directory. Keep the package lock created by installation.
 
 ## Research status
-The three questions and thesis direction are proposed research. No participant data is collected. Existing evidence, contextual sources, personal motivation and applications are labeled separately.
+The project uses secondary research on American soccer fandom. RQ3 compares documented quality perceptions with observable soccer characteristics; it does not propose a blind-evaluation experiment. Interactive prompts are conceptual applications, not validated diagnostics or original findings. No participant data is collected. Existing evidence, contextual sources, personal motivation and applications are labeled separately.
 
 Photography attribution and licenses appear in the site’s Image Credits. Adapted STL image remains CC BY-SA 4.0.
