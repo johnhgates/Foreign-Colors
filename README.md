@@ -9,11 +9,13 @@ Render Static Site, branch `main`, build command `test -f dist/index.html`, publ
 Node >=22.13.0. Install dependencies, edit `app/page.tsx`, `app/data.ts` or `app/globals.css`, then run `npm run build`. Commit both source and the regenerated `dist` directory. Keep the package lock created by installation.
 
 ## Research status
-The project uses secondary research on American soccer fandom. RQ3 compares documented quality perceptions with observable soccer characteristics; it does not propose a blind-evaluation experiment. Interactive prompts are conceptual applications, not validated diagnostics or original findings. No participant data is collected. Existing evidence, contextual sources, personal motivation and applications are labeled separately.
+Foreign Colors: Following the Money is an optional companion to the proposed 50–70-page thesis. Three pillars cover global commercial networks, league financial structures and American consumer behavior. The working argument is untested. Part A is a documentary comparison; Part B proposes a 15–20-question consumer survey after committee and IRB authorization.
 
-Photography attribution and licenses appear in the site’s Image Credits. Adapted STL image remains CC BY-SA 4.0.
+The Fan Economics Explorer is educational only. Choices stay in React memory; no research responses are collected or persisted. The Research Survey section is informational and closed to participation. Update its status in `app/research-study.tsx` only when authorized. No survey endpoint or storage exists.
 
-### Maintaining the research tools
-The historical MLS 2025 / EPL 2025–26 edition lives in `app/data.ts` as `comparisonEdition`. Keep its season labels, scope, raw calculations, source links and check date together. Add a separate edition for future seasons rather than silently replacing thesis evidence. Shooting counts use AS categories; do not relabel them as another provider’s attempts or infer accuracy without documented inclusion rules. The points-per-game gap uses extremes, not a complete balance index.
+## Maintaining the research tools
+Business comparison periods and official source links are in `app/color-tools.tsx`. Financial totals remain unavailable until units, currencies, periods and accounting scope can be reconciled. Existing bibliography attribution is retained; full-text verification and the novelty comparison with Su et al. (2025) remain pending. Historical sporting datasets remain in source for traceability but are not used to support the economic argument.
 
-Club tool recommendations and proposed success measures live together in `app/explorations.tsx`. Color Test sharing is user initiated, with a copyable fallback if browser APIs are unavailable. No accounts, data collection or persistence were added. Regenerate tracked `dist/` with `npm run build` because the legacy Render service serves that directory directly.
+Conditional commercial scenarios and local-only action-plan downloads live in `app/explorations.tsx`. They are not proven recommendations. Photography attribution and licenses remain in Image Credits; image assets and the original palette are unchanged.
+
+Regenerate and commit `dist/` using `npm run build`; the Render service serves that prebuilt directory directly. No new dependencies were added.
