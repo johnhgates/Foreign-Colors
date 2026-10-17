@@ -9,7 +9,7 @@ Render Static Site, branch `main`, build command `test -f dist/index.html`, publ
 Node >=22.13.0. Install dependencies, edit `app/page.tsx`, `app/data.ts` or `app/globals.css`, then run `npm run build`. Commit both source and the regenerated `dist` directory. Keep the package lock created by installation.
 
 ## Research status
-Foreign Colors: Following the Money is an optional companion to the proposed 50–70-page thesis. Three pillars cover global commercial networks, league financial structures and American consumer behavior. The working argument is untested. Part A is a documentary comparison; Part B proposes a 15–20-question consumer survey after committee and IRB authorization.
+Foreign Colors: Following the Money is an optional companion to the planned thesis, following required section minimums and committee guidance. Three pillars cover global commercial networks, league financial structures and American consumer behavior. The working argument is untested. Part A is a documentary comparison; Part B proposes a 15–20-question consumer survey after committee and IRB authorization.
 
 The Fan Economics Explorer is educational only. Choices stay in React memory; no research responses are collected or persisted. The Research Survey section is informational and closed to participation. Update its status in `app/research-study.tsx` only when authorized. No survey endpoint or storage exists.
 
